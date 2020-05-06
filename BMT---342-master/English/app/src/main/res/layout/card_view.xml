@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#f2f2f2"
+    android:gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:background="#f2f2f2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="30dp"
+        android:clickable="true"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff">
+
+
+            <TextView
+                android:id="@+id/resim_title"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_above="@+id/resim_aciklama"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Metin1"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/resim_aciklama"
+                android:layout_width="match_parent"
+                android:layout_height="586dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:textColor="#000000"
+                android:textSize="14sp"></TextView>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

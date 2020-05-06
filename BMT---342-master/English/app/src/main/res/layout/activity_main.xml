@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start"
+    >
+    <include
+        layout="@layout/conten_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5dbe8"
+            android:id="@+id/leftdrawer_child"
+            android:choiceMode="singleChoice"
+            android:divider="#622544"
+            android:dividerHeight="1dp"
+            />
+        <!-- android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" -->
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
