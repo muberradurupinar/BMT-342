@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userRecyView"
+        android:layout_width="408dp"
+        android:layout_height="589dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="90dp"
+        android:background="#B8C7E7">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/alt_main"
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-410dp"
+        android:layout_marginTop="75dp"
+        android:background="#6977D1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="9dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/search" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="                Arama"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ust_main"
+        android:layout_width="420dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-420dp"
+        android:background="#4F5DC5"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/backImage2"
+            android:layout_width="10dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/geri2" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="              Anasayfa"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

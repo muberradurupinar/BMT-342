@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "33748028105",
+    "firebase_url": "https://sohbet-3d5dd.firebaseio.com",
+    "project_id": "sohbet-3d5dd",
+    "storage_bucket": "sohbet-3d5dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33748028105:android:e18196946b45fc56f79b18",
+        "android_client_info": {
+          "package_name": "com.example.chatlingg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33748028105-197tb72vogc8jsj23esrg97e9o53o4a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatlingg",
+            "certificate_hash": "9e54ae890f63f2e5c4537bcf6a241b89290332a0"
+          }
+        },
+        {
+          "client_id": "33748028105-3hoc718233b6saemr9i93r22bia07f7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiY-_iWHcps9WJDStGlSQ-UU7wx9VTIUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33748028105-3hoc718233b6saemr9i93r22bia07f7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
